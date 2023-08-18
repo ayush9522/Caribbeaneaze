@@ -1,0 +1,32 @@
+/* Styles for larger screens */
+@media (min-width: 768px) {
+    /* Example: Set a minimum width for the Crousel */
+    .carousel-container {
+      min-width: 50%;
+      margin: 0 auto;
+    }
+  
+    /* Example: Adjust font size for the HomeHeader */
+    .home-header {
+      font-size: 24px;
+    }
+  
+    /* Add other responsive styles for larger screens here */
+  }
+  
+  /* Styles for smaller screens */
+  @media (max-width: 767px) {
+    /* Example: Center the Crousel and set its width to 100% */
+    .carousel-container {
+      width: 100%;
+      margin: 0 auto;
+    }
+  
+    /* Example: Adjust font size for the HomeHeader */
+    .home-header {
+      font-size: 20px;
+    }
+  
+    /* Add other responsive styles for smaller screens here */
+  }
+  
